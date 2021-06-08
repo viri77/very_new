@@ -25,6 +25,7 @@ body {
     width: 100%;
     display: block;
     clear: both;
+
 }
 
 .section {
@@ -38,7 +39,10 @@ body {
 #green {
     padding: 100px 0 250px;
     background: #17c2a4;
-    display:flex
+    display:flex;
+    -webkit-flex-shrink: 3;
+    flex-shrink: 3;
+
 }
 #pink{
     padding: 100px 0 250px;
@@ -48,5 +52,10 @@ body {
 #pastel{
     padding: 100px 0 250px;
     background: bisque;
+    display:flex;
+}
+#blue{
+    padding: 100px 0 250px;
+    background:mediumslateblue;
     display:flex;
 }
